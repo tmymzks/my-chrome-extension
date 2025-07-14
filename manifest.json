@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ページタイトルとURLコピー",
+  "version": "1.0",
+  "description": "WebページのタイトルとURLを同時にコピーできるChrome拡張機能",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "タイトルとURLをコピー"
+  }
+} 
